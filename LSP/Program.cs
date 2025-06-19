@@ -10,10 +10,12 @@ namespace LSP
     {
         public static void Main()
         {
-            Penguin p = new Penguin();
-            Test1.MakeBirdFly(p);
+            //Penguin p = new Penguin();
+            //Test1.MakeBirdFly(p);
             //ICanFly b = new FlyBird();
             //b.Fly();
+            OnlineExporter o = new OnlineExporter();
+            o.ExportToPDF();
         }
     }
 
