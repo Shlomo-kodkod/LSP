@@ -10,8 +10,10 @@ namespace LSP
     {
         public static void Main()
         {
-            ICanFly b = new FlyBird();
-            b.Fly();
+            Penguin p = new Penguin();
+            Test1.MakeBirdFly(p);
+            //ICanFly b = new FlyBird();
+            //b.Fly();
         }
     }
 
