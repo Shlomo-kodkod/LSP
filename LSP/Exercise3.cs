@@ -32,7 +32,7 @@ namespace LSP
     //}
 
 
-
+    //implemnt LSP
     internal interface IPdfExportable
     {
         public void ExportToPDF();
